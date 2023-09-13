@@ -1,0 +1,59 @@
+/*type selectors
+ h3{
+	color:red;
+	bottom:auto;
+	background-attachment: scroll;
+	margin: 1px;
+	border:5
+
+} */
+ /* class selector */
+/* span.mainbox,div.mainbox{
+	color:orange;
+	font-weight: bold;
+} */
+/*
+p,li,h3{
+	color:red;
+	bottom:auto;
+	background-attachment: scroll;
+	margin: 1px;
+	border:5;
+} */
+/*id selectors */
+/* #pname{
+	color:aquamarine;
+	font-variant: small-caps;
+} */
+/* attribute sectors */
+ a[href="www.google.com"]{
+	color:rgb(225, 154, 22);
+
+} /*
+body h4+h2 .mainbox{
+	color:orange;
+	background-color:white;
+} */
+ li{
+	list-style-type: circle;
+} 
+pseudo class selector
+a:hover{
+	color:orange;
+	text-decoration: none;
+}
+table{
+	position: absolute;
+	border-collapse:collapse;
+	border: 0px solid rgb(185, 170, 170);
+	box-shadow: 2px 2px 12px rgba(red ,green,blue,alpha);
+    width: 100%;
+	padding: 8px;
+} 
+tr{
+	border: 1px solid #e6e2de;
+	text-align: center;
+}
+tr:nth-child(even){
+	 background-color: #dddddd;
+}
