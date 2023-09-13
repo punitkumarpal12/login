@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My program</title>
+    <!-- (3) external line use in css  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- (2) Internal use in css  -->
+    <!-- <style> 
+      h2{
+        color:red;
+      }
+    </style> -->
+  </head>
+  <body>
+    <!-- html entities(1) inline css use  -->
+    <h1 style="background: violet; color: blue">
+      <marquee direction="right">Welcome my progam &lt;&frasl;h1&gt;</marquee>
+    </h1>
+    <h3>Welcome my program</h3>
+    <h4>Welcome my program</h4>
+    <h2>Welcome my program</h2>
+    <marquee direction="left"> <span>This is punit kumar</span></marquee>
+    <!-- span ka use paragraph likhane ke liye or next line me  -->
+    <hr />
+    <!-- paragram liye -->
+    <p>
+      <!-- target is use to open new tab -->
+      Lorem ipsum dollor
+      <a href="http://www.google.com" target="_blank" rel="noopener noreferrer"
+        >Google</a>
+      <small>first amet
+        <b style="color: red; background-color: blue">consectetur</b>
+        adipisicing elit.</small>
+      Tenetur ipsum quae fugiat eligendi dicta, repellat fuga dolorum quibusdam
+      10 <sup>2</sup> nostrum 3 <sub>2</sub> mollitia amet minima ducimus velit
+      rerum perspiciatis vero quod <br>, veritatis reiciendis! <br>
+      <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">google</a>
+      my name is punit kumar pal
+    </p>
+    <!-- horizental line ke liye  -->
+    <br>
+    <!-- br is used to break the line -->
+    <hr />
+    <h2>programming lists</h2>
+    <!-- unorder list -->
+    <ul class="list" type="circle">
+      <li>c language</li>
+      <li>object oriented language</li>
+      <ol>
+        <!-- order list -->
+        <!-- nested list  -->
+        <li>Inheritance</li>
+        <div class="mainbox">ram kumar</div>
+        <li>data abstraction</li>
+        <li>Encapsulation</li>
+        <li>polymorphism</li>
+        <li>classes</li>
+        <li>objects</li>
+        <li>Message passing</li>
+      </ol>
+      <li>java programming</li>
+      <li>python programming language</li>
+    </ul>
+    <hr />
+    <h2>programming lists</h2>
+    <!-- order list  -->
+    <ol type="a">
+      <li>c language</li>
+      <li>object oriented language</li>
+      <li>java programming</li>
+      <li>python programming language</li>
+    </ol>
+    <hr />
+    <!-- link banane ke liye new tab ke liye -->
+    <!-- external part link use in https -->
+    <a href="https://www.google.com" target="_blank">my google</a>
+    <!-- same tab ke liye -->
+    <hr />
+    <!-- absolute url -->
+    <a href="https://www.google.com">my google</a>
+    <hr />
+    <!-- relative  url -->
+    <!-- internal part link  -->
+    <a href="page2.html" target="_blank">Payment link...</a>
+    <hr />
+    <img src="photo.jpg" alt="this is an images" width="350" height="350" />
+    <!-- <hr /> -->
+    <video
+      src="video\Apex 2021 Hindi ORG Dual Audio 720p BluRay ESubs.mp4"
+      width="350"
+      controls
+      loop
+      muted
+      poster="SONU.jpg"
+      alt="this is an poster ">
+      autoplay means automatic play 
+        muted means start with muted
+        loop means end video then again play 
+      
+    </video>
+    <hr />
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/G0ehTJhrxLQ"
+      title="YouTube video player"
+      frameborder="1"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+    <iframe
+      src="https://youtube.com/shorts/isIONGktrlg?feature=share"
+      frameborder="0"
+    ></iframe>
+    <hr />
+    <table>
+      <!-- table heading -->
+      <thead>
+        <h2>result for matric</h2>
+        <hr />
+        <hr />
+        <!-- th means table heading
+        tr means table row 
+          -->
+          <!-- td means table data -->
+        <tr>
+          <th>Subject</th>
+          <th>Theory</th>
+          <th>Practical</th>
+          <th>Total marks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>maths</td>
+          <td>97</td>
+          <td>0</td>
+          <td>97</td>
+        </tr>
+
+        <tr>
+          <td>physics</td>
+          <td>47</td>
+          <td>20</td>
+          <td>67</td>
+        </tr>
+
+        <tr>
+          <td>chemistry</td>
+          <td>47</td>
+          <td>28</td>
+          <td>65</td>
+        </tr>
+
+        <tr>
+          <td>Hindi</td>
+          <td>42</td>
+          <td>0</td>
+          <td rowspan="2">220</td>
+        </tr>
+
+        <tr>
+          <td>English</td>
+          <td>178</td>
+          <td>0</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <th colspan="4">result : pass</th>
+      </tfoot>
+    </table>
+  </body>
+</html>
